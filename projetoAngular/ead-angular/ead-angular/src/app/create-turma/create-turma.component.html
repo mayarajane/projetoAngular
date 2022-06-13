@@ -1,0 +1,7 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" [(ngModel)]="turma.nome">
+    </div>
+    <button type="submit" class="btn btn-success">Cadastrar</button>
+</form>
